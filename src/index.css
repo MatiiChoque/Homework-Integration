@@ -5,6 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("../src/img/27353-rick-y-morty.png");
+  background-repeat: no-repeat;
+   background-clip:border-box;
+   background-size: 100%;
+   background-attachment:fixed;
+   overflow: hidden;
+   display: block;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 code {
